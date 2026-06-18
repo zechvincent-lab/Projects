@@ -2,9 +2,6 @@
 
 Comparing statistical, machine learning, deep learning and hybrid approaches for retail demand forecasting.
 
-[View the portfolio case study (PDF)](case-study/hybrid-time-series-forecasting-case-study.pdf)  
-[Download the PowerPoint version](case-study/hybrid-time-series-forecasting-case-study.pptx)
-
 ## Overview
 
 This project compares multiple forecasting approaches using historical weekly sales data for two retail products:
@@ -105,45 +102,6 @@ Lower MAPE did not always correspond to stronger residual independence. Model se
 - Add external drivers such as promotions, holidays, price changes and marketing activity.
 - Compare models at the frequency used for the actual business decision.
 - Automate retraining, monitoring and reporting where the number of SKUs makes manual model management impractical.
-
-## Repository structure
-
-```text
-hybrid-time-series-forecasting/
-├── README.md
-├── requirements.txt
-├── case-study/
-│   ├── hybrid-time-series-forecasting-case-study.pdf
-│   └── hybrid-time-series-forecasting-case-study.pptx
-├── notebooks/
-│   ├── the-alchemist-forecasting.ipynb
-│   └── the-very-hungry-caterpillar-forecasting.ipynb
-└── data/
-    └── README.md
-```
-
-## Running the notebooks
-
-The notebooks were developed in **Google Colab**.
-
-1. Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Place the required source files in the `data` directory:
-
-```text
-data/book_sales.csv
-data/book_sales.xlsx
-```
-
-3. Open either notebook and update any Google Drive mounting or file paths to match your environment.
-
-4. Run the cells in order.
-
-The source sales files are not included in this repository.
 
 ## Main technologies
 
